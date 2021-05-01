@@ -1,0 +1,193 @@
+.border_temp{  
+    border-bottom: 2px solid grey;
+}
+
+
+.datesection{
+    display: flex;
+    justify-content: space-between;    
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 3px solid grey;
+}
+
+.subtitle{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    color: white;
+    text-align: right;
+}
+
+.circlepage2-row1{
+    position: absolute;
+    bottom: 80px;
+    right: 25px;
+}
+
+.circle {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-style: italic;
+    padding: 2%;
+  }
+
+  .circle-row1{
+      position: absolute;
+      bottom: 50px;
+      right: 25px;
+  }
+
+
+  .circle-row2{
+    position: absolute;
+    top: 150px;
+    right: 25px;
+}
+
+.circle p{
+    font-size: 0.7rem;
+}
+
+
+.bottomsection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;    
+    font-style: italic;
+    font-weight: bold;
+    border-top: 3px solid grey;
+}
+
+.subheading{
+    text-align: center;
+    border-bottom: 3px solid grey;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-block: 12px;
+}
+
+.newspaperPage {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    background-color: white;
+  }
+
+  .tag{
+      background-color: brown;
+      color: wheat;
+      padding: 1%;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+
+  .tag2{
+      position:absolute;
+    top:2%;
+}
+
+.container2{
+    padding: 10px;
+}
+
+
+  .news-heading{
+      padding-top: 4%;
+      padding-bottom: 4%;
+  }
+
+  .news-heading2{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+  .news-content{
+      text-align: justify;
+  }
+
+.heading{
+    text-align: center;
+  font-size: 8rem;
+  margin-bottom: 5%;
+  color: black;
+}
+
+.image-1 {
+    height: 400px;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .image-2page2 {
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .image-3page2 {
+    height: 270px;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .image-2 {
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .image-pos{
+      position: relative;
+  }
+
+
+@media screen and (max-width: 640px){
+    .heading{
+        font-size: 3rem;
+    }
+    .image-1{
+        height: 300px;
+    }
+    .circle-row1{
+        position: absolute;
+        bottom: 50px;
+        right: 25px;
+    }
+
+    .circlepage2-row1{
+        position: absolute;
+        bottom: 50px;
+        right: 25px;
+    }
+}
+
+.pageTraverse{
+    background-color: lightblue;
+    height: 80px;
+    position: relative;
+}
+
+
+.btn-Pos{
+    display: flex;
+    align-content: center;
+}
+
+.ad{
+    text-align: center;
+    color: brown;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.pagination{
+    display: flex;
+}
